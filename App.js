@@ -11,7 +11,7 @@ export default function App() {
   const [CardBackVisible, setCardBackVisible] = useState(false);
 
   // Card number state
-  const [cardNumber, setCardNumber] = useState("");
+  const [cardNumber, setCardNumber] = useState("#### #### #### ####");
 
   // Card holder state
   const [cardHolder, setCardHolder] = useState("FULL NAME");
